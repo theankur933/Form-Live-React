@@ -1,0 +1,45 @@
+.wrapper{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    background-color: #f5f4f4;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.16);
+    margin-right: 40px;
+    padding: 40px;
+}
+.df{
+    display: flex;
+}
+
+.form-field{
+    margin-bottom: 20px;
+}
+.form-field > :nth-child(1){
+    width: 100px;
+}
+.form-field input{
+    padding: 4px 8px;
+}
+.form-field input:focus{
+    outline: none;
+}
+.radio input{
+ margin: 10px;
+}
+button{
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.buttons{
+    justify-content: space-between;
+}
+
+.danger{
+    text-align: center;
+    padding: 10px;
+    color:red;
+}
+
+

@@ -1,0 +1,67 @@
+table,tr,th,td{
+    border: 1px solid black;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 8px;
+}
+button{
+    margin-top: 10px;
+}
+.update-form-wrapper{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.16);
+    visibility: hidden;
+    opacity: 0;
+}
+.update-form{
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+}
+.update-form-header{
+    align-items: center;
+}
+.from-update > div{
+ margin: 10px 0;
+}
+.lable{
+    display: inline-block;
+    width: 130px;
+}
+.lable-radio{
+    display: inline-block;
+    width: 50px;
+}
+.toggle-icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.toggle-icon > div{
+    width: 18px;
+    height: 3px;
+    background-color: red;
+    
+}
+.sp-top{
+    margin-bottom: 0px;
+    transform: rotate(-45deg);
+}
+.sp-bottom{
+    margin-top: -3px;
+    transform: rotate(45deg);
+}
+.update-form-show{
+ visibility: visible;
+ opacity: 1;
+}
